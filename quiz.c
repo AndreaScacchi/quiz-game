@@ -39,4 +39,10 @@ int main() {
             printf("WRONG!\n");
         }
     }
+
+    printf("*********************\n");
+    printf("FINAL SCORE: %d/%d\n", score, numberOfQuestions);
+    printf("*********************\n");
+
+    return 0;
 }
